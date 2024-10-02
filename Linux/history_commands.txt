@@ -1,0 +1,49 @@
+    1  clear
+    2  sudo apt update
+    3  sudo apt install git
+    4  git status
+    5  ls
+    6  cat > Pets.txt
+    7  cat > PackAnimals.txt
+    8  git status
+    9  git add Pets.txt
+   10  git init
+   11  git status
+   12  git add Pets.txt
+   13  git add PackAnimals.txt
+   14  git commit -m "Создание файла и наполнение  файла
+   15  git status
+   16  git commit -m "Создание и наполнение файлов Pets.txt и PackAnimals.txt"
+   17  git config --global user.email aleks272007@gmail.com
+   18  git config --global user.name Alex272007
+   19  git commit -m "Создание и наполнение файлов Pets.txt и PackAnimals.txt"
+   20  cat Pets.txt PackAnimals.txt > CombinAnimals.txt
+   21  git status
+   22  git add CombinAnimals.txt
+   23  git commit -m "Объединение файлов в один CombinAnimals.txt"
+   24  git status
+   25  git add HumanFriends.txt
+   26  git commit -m "Переименование файла в HumanFriends.txt"
+   27  mkdir Animals
+   28  git status
+   29  mv  HumanFriends.txt Animals
+   30  ls
+   31  git status
+   32  git add Animals/
+   33  git commit -m "Создание директории и перемещение файла HumanFriends.txt"
+   34  sudo apt install mysql-server
+   35  sudo apt install mysql-client
+   36  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+   37  sudo dpkg -i google-chrome-stable_current_amd64.deb
+   38  sudo apt-get install -f
+   39  git status
+   40  ls
+   41  rm google-chrome-stable_current_amd64.deb
+   42  ls
+   43  sudo apt-get remove google-chrome-stable
+   44  sudo apt-get purge google-chrome-stable
+   45  sudo apt-get autoremove
+   46  git branch
+   47  git remote add origin https://github.com/Alex272007/Alex272007-Final_test_on_specialization.git
+   48  git remote -v
+   49  history > history_commands.txt
